@@ -109,26 +109,33 @@ Logout
 </nav>
 <div class="container mt-4">
 
-    <div class="hero-padel">
-        <div class="hero-content">
-            <span class="hero-badge">🎾 Premium Padel Court</span>
+<div class="hero-padel">
 
-            <h1>
-                Booking Lapangan
-                <span>Padel</span>
-            </h1>
+<div class="hero-emoji">
+    🎾
+</div>
 
-            <p>
-                Nikmati pengalaman bermain padel yang modern,
-                nyaman, dan cepat. Booking lapangan favoritmu
-                hanya dalam beberapa klik.
-            </p>
+<div class="hero-content">
+    <span class="hero-badge">Premium Padel Court</span>
 
-            <a href="#lapangan" class="btn btn-hero">
-                Booking Sekarang
-            </a>
-        </div>
-    </div>
+    <h1>
+        Booking Lapangan
+        <span>Padel</span>
+    </h1>
+
+    <p>
+        Nikmati pengalaman bermain padel yang modern,
+        nyaman, dan cepat.
+        Booking lapangan favoritmu hanya dalam beberapa klik.
+    </p>
+
+    <a href="#lapangan" class="btn btn-hero">
+        Booking Sekarang
+    </a>
+
+</div>
+
+</div>
 
     <h2 id="lapangan" class="mb-4">
         🎾 Daftar Lapangan Premium
@@ -154,9 +161,9 @@ Logout
 
             ?>
 
-            <img
-            src="../assets/img/<?php echo $gambar[$d['id']]; ?>"
-            class="card-img-top">
+                <div class="card-img-top lapangan-emoji">
+                    🎾
+                </div>
 
                 <div class="card-body">
 

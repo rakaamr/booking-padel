@@ -1239,3 +1239,11 @@ h2::after {
   background: #eafff0;
   color: #1ea84a;
 }
+.lapangan-emoji{
+    height: 250px;
+    background: #1f9d45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
